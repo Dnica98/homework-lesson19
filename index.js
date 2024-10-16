@@ -60,9 +60,9 @@
 //     if( l1 === true || l2 === true) {
 //         return 'Verificati listele sa contina doar elemente de tip string';
 //     }
-//     const lista2sortata = [...lista2].sort();
+//    
         
-//     const result = lista2sortata.reduce((acc,curr,index,lista2sortata) =>{
+//     const result = lista2.reduce((acc,curr,index,lista2) =>{
 //         if (index < K){
 //             acc.push(curr);
 //         } 
