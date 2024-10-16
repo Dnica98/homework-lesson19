@@ -55,7 +55,9 @@
 // const K = 6;
 
 // function addFirstKElem(list1, lista2, K) {
-//     if(!lista1.every(item=> typeof item === 'string') || !lista2.every(item => typeof item === 'string')) {
+//     const l1 = !lista1.every(item => typeof item === 'string');
+//     const l2 = !lista2.every(item => typeof item === 'string');
+//     if( l1 === true || l2 === true) {
 //         return 'Verificati listele sa contina doar elemente de tip string';
 //     }
 //     const lista2sortata = [...lista2].sort();
@@ -168,6 +170,27 @@ showItems(arr, 'DSC')
 
     
 
+ const lista1 = ['str1','str2','str3'];
+// const lista2 =['str6','str4','str8','str7','str5'];
 
+// function addFirstKElem(lista1, lista2, K) {
+//     if(!lista1.every(item=> typeof item === 'string') || !lista2.every(item => typeof item === 'string')) {
+//         return 'Verificati listele sa contina doar elemente de tip string';
+//     }
+    
+//     const lista2sortata = [...lista2].sort();
+
+//     const newlist = [...lista1];
+
+//     for (let i = 0; i < K && i < lista2sortata.length; i++){
+//         newlist.push(lista2sortata[i]);
+//     }
+
+//     return newlist;
+
+// }
+// const rez = addFirstKElem(lista1,lista2,3)
+
+// console.log(rez)
 
 
